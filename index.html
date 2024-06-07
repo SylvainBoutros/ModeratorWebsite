@@ -32,12 +32,6 @@
             object-fit: contain;
         }
 
-        .centered {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         @media (max-width: 992px) {
             #mayc8083 {
                 display: none;
@@ -76,17 +70,33 @@
     </section>
     <hr>
     <section id="skills">
-        <div class="container px-5 py-5 centered">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/FactionLogo.jpg" class="card-img-top" alt="MHFactions">
+        <div class="container px-5 py-5 d-flex justify-content-center align-items-center gap-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-stretch">
+            <div class="card">
+                <img src="./assets/FactionLogo.jpg" class="card-img-top" alt="MHFactions" height="175">
                 <div class="card-body">
                   <p class="card-text">Uniting all Mutant Hound Factions in one feed. Your central source for every faction's updates and tales. Explore, unite, and conquer. </p>
                   <div class="d-grid gap-2">
-                    <a href="https://x.com/MHFactions" class="btn btn-primary btn-lg"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://mhfactions.xyz" class="btn btn-primary btn-lg"><i class="fa-solid fa-globe"></i></a>
+                    <a href="https://x.com/MHFactions" class="btn btn-primary btn-lg" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://mhfactions.xyz" class="btn btn-primary btn-lg" target="_blank"><i class="fa-solid fa-globe"></i></a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-stretch">
+              <div class="card">
+                <img src="./assets/LaughingLegion.jpg" class="card-img-top" alt="LaughingLegion" height="175">
+                <div class="card-body">
+                  <p class="card-text">Explore the Laughing Legion and use our stamp generator to overlay the iconic Novel Lab's hand logo on your Mutant Hounds images. </p>
+                  <div class="d-grid gap-2">
+                    <a href="https://x.com/LaughingLegion" class="btn btn-primary btn-lg" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://laughinglegion.com" class="btn btn-primary btn-lg" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
           </div>
     </section>
     <hr>
